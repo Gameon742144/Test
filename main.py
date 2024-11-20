@@ -8,12 +8,12 @@ from keep_alive import keep_alive
 
 status = "online" #online/dnd/idle
 
-GUILD_ID = ADD_YOUR_SERVER_ID_HERE
-CHANNEL_ID = ADD_YOUR_CHANNEL_ID_HERE
+GUILD_ID = 1257222232338337812
+CHANNEL_ID = 1277712920544805030
 SELF_MUTE = True
 SELF_DEAF = False
 
-usertoken = os.getenv("TOKEN")
+usertoken = os.getenv("MTI1NTA2MzE2NjE4MzAxNDQzMw.Gg8Ykf.tRbbJLd_ovCvztYKbG9UVyq11gA1wLVHpiIxys")
 if not usertoken:
   print("[ERROR] Please add a token inside Secrets.")
   sys.exit()
